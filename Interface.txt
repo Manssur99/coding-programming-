@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+    <meta charset="UTF-8">
+    <title>UNIVERSITI MANSUR IBRAHIM - Menjana Kecemerlangan Akademik dan Inovasi</title>
+    <style>
+        /* Gaya asas untuk tata letak */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+        header p {
+            font-size: 1.2em;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 10px;
+            background-color: #f3f3f3;
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+        }
+        nav ul li {
+            display: inline;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            padding: 8px 12px;
+        }
+        nav ul li a:hover {
+            background-color: #ddd;
+            border-radius: 5px;
+        }
+        section {
+            text-align: center;
+            padding: 20px;
+        }
+        section img {
+            max-width: 100%;
+            height: auto;
+        }
+        section p {
+            font-size: 1.1em;
+            max-width: 800px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+        /* Media query untuk skrin yang lebih kecil */
+        @media (max-width: 600px) {
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Tajuk Halaman -->
+    <header>
+        <h1>Selamat Datang ke UNIVERSITI MANSUR IBRAHIM</h1>
+        <p>Menyediakan pendidikan berkualiti dan penyelidikan inovatif untuk generasi masa depan.</p>
+    </header>
+
+    <!-- Navigasi -->
+    <nav>
+        <ul>
+            <li><a href="laman_utama.html">laman utama</a></li>
+            <li><a href="tentang_kami.html">tentang kami</a></li>
+            <li><a href="program_akademik.html">program akademik</a></li>
+            <li><a href="penyelidikan_inovasi.html">penyelidikan dan inovasi</a></li>
+            <li><a href="sumber_pelajar.html">sumber pelajar</a></li>
+            <li><a href="perkhidmatan_kerjaya.html">perkhidmatan kerjaya</a></li>
+            <li><a href="Laman_pelawat.html">Laman pelawat</a></li>
+        </ul>
+    </nav>
+
+    <!-- Kandungan Laman Utama -->
+    <section>
+        <img src="universiti.jpg" alt="Gambar UNIVERSITI MANSUR IBRAHIM" width="600">
+        <p>UNIVERSITI MANSUR IBRAHIM terkenal dengan kecemerlangan akademik dan sumbangan penyelidikan yang hebat. Sertai kami dalam perjalanan ini untuk menjana inovasi dan kejayaan global.</p>
+    </section>
+</body>
+</html>
